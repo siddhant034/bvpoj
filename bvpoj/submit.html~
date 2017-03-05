@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="practice questions">
+    <meta name="author" content="Siddhant Shekhar">
+    <link rel="icon" href="favicon.ico">
+
+    <title>BVPOJ | Submit</title>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="starter-template.css" rel="stylesheet">
+  </head>
+
+  <body>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">BVPOJ</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <form class="navbar-form navbar-right">
+            <div class="form-group">
+              <input id = "e" type="text" placeholder="Email" class="form-control">
+            </div>
+            <div class="form-group">
+              <input id = "p" type="password" placeholder="Password" class="form-control">
+            </div>
+            <button onclick = "validate()" type="submit" class="btn btn-success">Sign in</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <div class="container">
+      <div class="starter-template">
+        <h1 align = "left">SUBMIT A SOLUTION: </h1>
+        </br></br>
+          
+         <!--p>Enter problem code : </p>
+         <input type = "text"  name="pCode" style = "width:200px">
+        <br/><br/><br/-->
+        
+        <p>Language:</p>
+        	<select id = "lang" name="lang">
+        		<option>C(gcc-4.9.2)</option>
+        		<option>C++(gcc-4.3.2)</option>
+        		<option>Java(javac 8)</option>
+        		<option>Python3(python-3.4)</option>
+        		<option>Text(pure text)</option>
+        	</select>
+
+        <br/><br/><br/>
+        
+          <!--p>Upload your source file here :</p>
+          <input type = "file" name = "source" style = "width :200px"-->	
+        	       <p>Enter source code : </p>
+	<form id="post" name="post" method="post" action="input.php"> 
+		<textarea name="sCode" cols="70" rows="30"></textarea>
+		<center>
+		</br>
+		<input class="button" type="submit" value="Submit">
+	</form>
+        </br>
+        <p align = "left">
+      </div>
+    </div>
+    
+    <script>
+	    	function myFunction() {
+	    document.getElementById("myDropdown").classList.toggle("show");
+	}
+
+	// Close the dropdown menu if the user clicks outside of it
+	window.onclick = function(event) {
+	  if (!event.target.matches('.dropbtn')) {
+
+	    var dropdowns = document.getElementsByClassName("dropdown-content");
+	    var i;
+	    for (i = 0; i < dropdowns.length; i++) {
+		 var openDropdown = dropdowns[i];
+		 if (openDropdown.classList.contains('show')) {
+		   openDropdown.classList.remove('show');
+		 }
+	    }
+	  }
+	}
+	</script>
+    
+  </body>
+</html>

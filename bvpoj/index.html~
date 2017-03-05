@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Front Page of BVPOJ">
+    <meta name="author" content="Siddhant Shekhar">
+    <link rel="icon" href="favicon.ico">
+
+    <title>Online Judge for BVP</title>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="index.css" rel="stylesheet">
+  </head>
+  
+  <body>
+
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">BVPOJ</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <form class="navbar-form navbar-right">
+            <div class="form-group">
+              <input id = "e" type="text" placeholder="Email" class="form-control">
+            </div>
+            <div class="form-group">
+              <input id = "p" type="password" placeholder="Password" class="form-control">
+            </div>
+            <button onclick = "validate()" type="submit" class="btn btn-success">Sign in</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <div class="jumbotron">
+      <div class="container">
+        <h1>BVPOJ</h1>
+        <p>Welcome to the homepage of BVPOJ, the official online judge of Bharati Vidyapeeth's College of Engineering, New Delhi. Here, you can practice problems to hone your skills, you can participate in programming contests  and you can even host your own programming contests. </p>
+        <p><a class="btn btn-primary btn-lg" href="" role="button">Our Objective &raquo;</a></p>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+        <a href = "practice.html">
+          <h2>Practice</h2>
+          </a>
+          <p><b>The difference between ordinary and extraordinary is practice. </b>
+          	  </br>
+          	  Prepare yourself for various kinds of programming challenges by solving practice problems of varying difficulty.
+           </p>
+        </div>
+        <div class="col-md-4">
+        <a href = "contest.html">
+          <h2>Participate in Contests</h2>
+          </a>
+          <p> Compete against other techies in our monthly programming contests, gain recognition and win cool stuff. Coding contests begin on the first Friday of every month.</p>
+       </div>
+        <div class="col-md-4">
+        <a href = "discuss.html">
+          <h2>Discuss</h2>
+          </a>
+          <p>Hang out with other coders, discuss algorithms, get your questions answered and be inspired.</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

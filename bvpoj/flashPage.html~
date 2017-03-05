@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>BVPOJ</title>
+	</head>
+	<body>
+		<img src='flashImage.png' style='position:fixed;top:0px;left:0px;width:100%;height:100%;z-index:-1;'>
+		<form>
+			<button name="button" value="OK" type="button"<a href="frontPage.html">Go to site</a></button>
+		</form>
+	</body>
+</html>

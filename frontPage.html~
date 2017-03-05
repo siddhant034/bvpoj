@@ -1,0 +1,11 @@
+	<title>DWOJ</title>
+	<h1><center>Welcome to BVPOJ </h1>
+	</br>
+	<h3><center>Enter the source code (only C++) in the given box</h3>
+	<center>
+	<form id="post" name="post" method="post" action="input.php"> 
+		<textarea name="sCode" cols="70" rows="30"></textarea>
+		<center>
+		</br>
+		<input class="button" type="submit" value="Submit">
+	</form>
